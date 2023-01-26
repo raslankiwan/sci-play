@@ -1,0 +1,46 @@
+.container {
+	min-width: 270px;
+	width: 270px;
+	margin: 10px;
+	background-color: white;
+    border-radius: 1%;
+
+}
+
+.container:hover {
+	background-color: red;
+}
+
+img {
+	background-color: lightgray;
+	min-width: 250px;
+	width: 250px;
+	min-height: 250px;
+	height: 250px;
+
+	display: block;
+	margin: 10px;
+	border-radius: 1%;
+}
+
+.fullname {
+	font-weight: bolder;
+	font-size: large;
+	color: rgb(28 81 105);
+	margin-bottom: 5px;
+}
+
+.container:hover .fullname {
+	color: white;
+}
+
+.job-title {
+	font-size: medium;
+	color: rgb(113, 126, 132);
+	margin-bottom: 20px;
+}
+
+.container:hover .job-title {
+	color: white;
+}
+
